@@ -5,7 +5,7 @@ Zalecane jest, aby komunikacja przez HTTPS API odbywała się z loginów utworzo
 
 Przykładowe wywołanie
 ```c#
-		using System;
+        using System;
         using System.Collections.Generic;
         using System.Diagnostics;
         using SerwerSMS;
