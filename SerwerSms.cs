@@ -107,7 +107,7 @@ namespace SerwerSMS
 
             using (var client = new HttpClient())
             {
-                var response = await client.PostAsync(uri, stringContent);
+                var response = await client.PostAsync(uri, stringContent).ConfigureAwait(false);
 
                 if (!response.IsSuccessStatusCode)
                 {
